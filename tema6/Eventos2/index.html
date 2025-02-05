@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            height: 100px;
+            width: 100px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="div1" onclick="pulsar()">
+        <button>Pulse aqui</button>
+    </div>
+
+    <div id="div2" onmousemove="cambiarColor()">
+        <p>Pase por aqui</p>
+    </div>
+
+    <div id="div3">
+
+    </div>
+
+    <form>
+        <input id="precio" type="number">
+        <input id="cantidad" type="number">
+        <input type="button" id="enviar" value="Calcular">
+        <input id="total" readonly>
+    </form>
+
+    <div id="div4" class="boton">
+        Pulsa aqui
+    </div>
+
+    <div id="div5" class="boton">
+        Pulsa aqui
+    </div>
+
+    <div style="display: block; width: 100px; height: 100px;" id="cuadro">
+        Cuadro que cambia al entrar el ratón
+    </div>
+
+    <div><label>Coordenada X</label>
+        <input id="cX">
+    </div>
+    <div><label>Coordenada Y</label>
+        <input id="cY">
+    </div>
+
+    <div id="c1" style="background: red"></div>
+    <div id="c2" style="background: white"></div>
+    <div id="c3" style="background: blue"></div>
+
+
+
+</body>
+<script src="index.js"></script>
+
+</html>
